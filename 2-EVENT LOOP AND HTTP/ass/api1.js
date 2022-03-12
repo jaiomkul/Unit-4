@@ -19,7 +19,7 @@ app.get("/home", function(req, res){
 });
 
 app.get("/books", function(req,res){
-  res.send({student:"ABC"})
+  res.send({book1:"ABC", book2:"big data", book3:"gyan", book4:"All in one"})
 })
 
 
