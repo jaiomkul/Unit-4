@@ -1,3 +1,0 @@
-tytryuthytytyhyrtf
-uiyiytjthjt
-rthtrhhthjnytng bfdjnymhmy
