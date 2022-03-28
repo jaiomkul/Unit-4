@@ -1,44 +1,44 @@
-// function timeConversion(s) {
-//     // Write your code here
-let h1 = Number(s[0] - '0');
-let h2 = Number(s[1] - '0');
-let hh = (h1*10 + h2%10);
-let bag="";
+// // function timeConversion(s) {
+// //     // Write your code here
+// let h1 = Number(s[0] - '0');
+// let h2 = Number(s[1] - '0');
+// let hh = (h1*10 + h2%10);
+// let bag="";
 
-if(s[8]=='A')
-{
-    if(hh==12){
-        bag+='00';
-        for(let i=2; i<=7; i++)
-        {
-            bag+=s[i]
-        }
-    }
-    else{
-        for(let i=0; i<=7; i++)
-        {
-            bag+=s[i]
-        }
-    }
-}
-else{
-    if(hh==12){
-        bag+=12;
-        for(let i=2; i<=7; i++)
-        {
-            bag+=s[i]
-        }
-    }
-    else{
-        hh = hh + 12;
-        bag+=hh;
-        for(let i=2; i<=7; i++)
-        {
-            bag+=s[i]
-        }
-    }
-}
-console.log(bag)
+// if(s[8]=='A')
+// {
+//     if(hh==12){
+//         bag+='00';
+//         for(let i=2; i<=7; i++)
+//         {
+//             bag+=s[i]
+//         }
+//     }
+//     else{
+//         for(let i=0; i<=7; i++)
+//         {
+//             bag+=s[i]
+//         }
+//     }
+// }
+// else{
+//     if(hh==12){
+//         bag+=12;
+//         for(let i=2; i<=7; i++)
+//         {
+//             bag+=s[i]
+//         }
+//     }
+//     else{
+//         hh = hh + 12;
+//         bag+=hh;
+//         for(let i=2; i<=7; i++)
+//         {
+//             bag+=s[i]
+//         }
+//     }
+// }
+// console.log(bag)
 // }
 // var s = "07:05:45PM";
 // timeConversion(s);
